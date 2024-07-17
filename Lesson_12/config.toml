@@ -1,0 +1,15 @@
+[general]
+BROWSER = "chrome"
+DO_NOT_RESTART = "True"
+SOFT_RESTART = "False"
+ELEMENT_OUTPUT_LOG = "user_friendly"
+
+[custom]
+SBIS_SITE = "https://fix-online.sbis.ru/"
+SBIS_AUTH = 'https://fix-sso.sbis.ru/auth-online/'
+SBIS_DIAL = 'https://fix-online.sbis.ru/page/dialogs'
+SBIS_TASKS= 'https://fix-online.sbis.ru/page/tasks-in-work'
+SBIS_TITLE = 'Задача №ZK24071281292 от 12.07.24'
+USER_LOGIN = "Бетмен"
+USER_PASSWORD = "Бетмен123"
+NAME_FOLDER = 'Папка для теста'
