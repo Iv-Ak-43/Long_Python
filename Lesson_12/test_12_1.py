@@ -16,8 +16,6 @@ class AuthPage(Region):
 class Contact(Region):
     page_contacts = TextField(By.CSS_SELECTOR, '[data-qa="Контакты"]', 'раздел контакты')
 
-# .NavigationPanels-Accordion__title'
-#                                                '.NavigationPanels-Accordion__title_level-1'
 class NewMessage(Region):
     button_new_message = Button(By.CSS_SELECTOR, '.icon-EmptyMessage.controls-icon_size-s', 'кнопка создания нового '
                                                                                             'сообщения')
